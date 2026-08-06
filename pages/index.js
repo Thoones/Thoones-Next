@@ -13,7 +13,7 @@ import Footer from '../components/footer'
 const Home = (props) => {
   return (
     <>
-      <div className="home-container1">
+      <div className="home-container10">
         <Head>
           <title>Thoones</title>
           <meta property="og:title" content="Thoones" />
@@ -95,7 +95,7 @@ const Home = (props) => {
                     <span>Product Launch</span>
                   </div>
                   <div>
-                    <div className="home-container3">
+                    <div className="home-container12">
                       <Script
                         html={`<style>
 @keyframes blinkLive {
@@ -137,14 +137,23 @@ const Home = (props) => {
               data-role="positioning-headline"
               className="home-thq-positioning-headline-elm"
             >
-              <span data-role="phrase-1" className="positioning-phrase">
-                More than a social network.
+              <span
+                data-role="phrase-1"
+                className="positioning-phrase positioning-phrase-typing"
+              >
+                Morethan
               </span>
-              <span data-role="phrase-2" className="positioning-phrase">
-                More than a marketplace.
+              <span
+                data-role="phrase-2"
+                className="positioning-phrase positioning-phrase-typing"
+              >
+                A social
               </span>
-              <span data-role="phrase-3" className="positioning-phrase">
-                Something in between.
+              <span
+                data-role="phrase-3"
+                className="positioning-phrase positioning-phrase-typing"
+              >
+                Network
               </span>
             </div>
           </div>
@@ -688,8 +697,8 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <div className="home-container4">
-          <div className="home-container5">
+        <div className="home-container13">
+          <div className="home-container14">
             <Script
               html={`<script defer data-name="thoones-homepage">
 (function(){
@@ -761,8 +770,8 @@ const Home = (props) => {
             ></Script>
           </div>
         </div>
-        <div className="home-container6">
-          <div className="home-container7">
+        <div className="home-container15">
+          <div className="home-container16">
             <Script
               html={`<style>
         @keyframes slideUp {
@@ -826,7 +835,7 @@ const Home = (props) => {
         </div>
         <Footer></Footer>
         <div>
-          <div className="home-container9">
+          <div className="home-container18">
             <Script
               html={`<style>
         @keyframes phraseReveal {
@@ -860,10 +869,54 @@ const Home = (props) => {
             ></Script>
           </div>
         </div>
+        <div>
+          <div className="home-container20">
+            <Script
+              html={`<style>
+@keyframes typing-cycle {
+0% {
+  opacity: 1;
+  max-width: 0;
+  border-color: var(--color-primary);
+}
+20% {
+  max-width: 20ch;
+}
+30% {
+  border-color: var(--color-primary);
+}
+31% {
+  border-color: transparent;
+}
+32% {
+  border-color: var(--color-primary);
+}
+33% {
+  opacity: 1;
+  border-color: var(--color-primary);
+}
+33.3% {
+  opacity: 0;
+  max-width: 20ch;
+  border-color: transparent;
+}
+33.4% {
+  max-width: 0;
+}
+100% {
+  opacity: 0;
+  max-width: 0;
+  border-color: transparent;
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
-          .home-container1 {
+          .home-container10 {
             width: 100%;
             min-height: 100vh;
           }
@@ -901,7 +954,7 @@ const Home = (props) => {
             margin-top: 8px;
             font-weight: 500;
           }
-          .home-container3 {
+          .home-container12 {
             display: contents;
           }
           .home-thq-floating-ui-card-elm2 {
@@ -912,10 +965,10 @@ const Home = (props) => {
           }
           .home-thq-positioning-headline-elm {
             width: 100%;
+            height: 1.3em;
             display: flex;
-            overflow: visible;
+            overflow: hidden;
             position: relative;
-            min-height: auto;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -929,19 +982,22 @@ const Home = (props) => {
           .home-thq-bar-fill-elm3 {
             width: 78%;
           }
-          .home-container4 {
+          .home-container13 {
             display: none;
           }
-          .home-container5 {
+          .home-container14 {
             display: contents;
           }
-          .home-container6 {
+          .home-container15 {
             display: none;
           }
-          .home-container7 {
+          .home-container16 {
             display: contents;
           }
-          .home-container9 {
+          .home-container18 {
+            display: contents;
+          }
+          .home-container20 {
             display: contents;
           }
         `}

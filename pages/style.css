@@ -3207,6 +3207,31 @@
   letter-spacing: var(--letter-spacing-heading);
 }
  
+.positioning-phrase-typing {
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  animation: typing-cycle 9s steps(30) infinite;
+  max-width: 0;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  border-right: 3px solid var(--color-primary);
+}
+ 
+.positioning-phrase-typing:nth-child(1) {
+  animation-delay: 0s;
+}
+ 
+.positioning-phrase-typing:nth-child(2) {
+  animation-delay: 3s;
+}
+ 
+.positioning-phrase-typing:nth-child(3) {
+  animation-delay: 6s;
+}
+ 
 .Content {
   font-size: 16px;
   font-family: Inter;
