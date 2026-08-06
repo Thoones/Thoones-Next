@@ -965,10 +965,10 @@ const Home = (props) => {
           }
           .home-thq-positioning-headline-elm {
             width: 100%;
-            height: 1.3em;
             display: flex;
-            overflow: hidden;
+            overflow: visible;
             position: relative;
+            min-height: 1.3em;
             align-items: center;
             flex-direction: column;
             justify-content: center;
@@ -999,6 +999,16 @@ const Home = (props) => {
           }
           .home-container20 {
             display: contents;
+          }
+          @media (max-width: 767px) {
+            .home-thq-positioning-headline-elm {
+              min-height: 1.5em;
+            }
+          }
+          @media (max-width: 479px) {
+            .home-thq-positioning-headline-elm {
+              min-height: 1.6em;
+            }
           }
         `}
       </style>
