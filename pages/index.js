@@ -108,25 +108,20 @@ const Home = (props) => {
         </section>
         <section className="positioning-section">
           <div className="positioning-container">
-            <div data-reveal="true" className="statement-item">
-              <h2 className="section-title hero-title">
+            <div
+              data-role="positioning-headline"
+              className="home-thq-positioning-headline-elm"
+            >
+              <span data-role="phrase-1" className="positioning-phrase">
                 More than a social network.
-              </h2>
-            </div>
-            <div data-reveal="true" className="statement-item">
-              <h2 className="section-title hero-title">
+              </span>
+              <span data-role="phrase-2" className="positioning-phrase">
                 More than a marketplace.
-              </h2>
-            </div>
-            <div data-reveal="true" className="statement-item">
-              <h2 className="section-title hero-title">
+              </span>
+              <span data-role="phrase-3" className="positioning-phrase">
                 Something in between.
-              </h2>
+              </span>
             </div>
-            <p className="home-thq-positioning-description-elm">
-              Thoones is where people, discovery, trust and commerce come
-              together.
-            </p>
           </div>
         </section>
         <section className="loop-section">
@@ -794,6 +789,41 @@ const Home = (props) => {
           </div>
         </div>
         <Footer></Footer>
+        <div>
+          <div className="home-container7">
+            <Script
+              html={`<style>
+@keyframes phraseReveal {
+0% {
+  opacity: 0;
+  transform: translate(-50%, -40%);
+  filter: blur(4px);
+}
+6% {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  filter: blur(0px);
+}
+27% {
+  opacity: 1;
+  transform: translate(-50%, -50%);
+  filter: blur(0px);
+}
+33% {
+  opacity: 0;
+  transform: translate(-50%, -60%);
+  filter: blur(4px);
+}
+100% {
+  opacity: 0;
+  transform: translate(-50%, -40%);
+  filter: blur(4px);
+}
+}
+</style>`}
+            ></Script>
+          </div>
+        </div>
       </div>
       <style jsx>
         {`
@@ -816,12 +846,13 @@ const Home = (props) => {
           .home-thq-floating-ui-card-elm3 {
             -delay: 0.6s;
           }
-          .home-thq-positioning-description-elm {
-            color: #4a4640;
-            font-size: var(--font-size-lg);
-            max-width: 48ch;
-            margin-top: var(--spacing-lg);
-            line-height: var(--line-height-body);
+          .home-thq-positioning-headline-elm {
+            width: 100%;
+            display: flex;
+            position: relative;
+            min-height: 1.2em;
+            align-items: center;
+            justify-content: center;
           }
           .home-thq-bar-fill-elm1 {
             width: 92%;
@@ -842,6 +873,9 @@ const Home = (props) => {
             display: none;
           }
           .home-container5 {
+            display: contents;
+          }
+          .home-container7 {
             display: contents;
           }
         `}

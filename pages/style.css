@@ -1290,10 +1290,12 @@
   gap: var(--spacing-3xl);
   margin: 0 auto;
   display: flex;
-  padding: 0 var(--spacing-xl);
+  padding: var(--spacing-4xl) var(--spacing-xl);
   max-width: var(--content-max-width);
+  min-height: 50vh;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
 }
  
 .statement-item {
@@ -3182,22 +3184,6 @@
   background-color: var(--color-primary);
 }
  
-.positioning-section  .section-title {
-  color: #2C2420;
-  font-size: var(--font-size-4xl);
-  line-height: var(--line-height-heading);
-  text-shadow: 0px 2px 4px rgba(212, 195, 172, 0.2);
-  letter-spacing: var(--letter-spacing-heading);
-}
- 
-.statement-item:nth-child(2) {
-  opacity: 0.6;
-}
- 
-.statement-item:nth-child(3) {
-  opacity: 1;
-}
- 
 .product-discovery1-product-discovery-buy:hover:not(:disabled) {
   transform: translateY(-2px);
   box-shadow: var(--shadow-level-2);
@@ -3207,6 +3193,35 @@
 .product-discovery1-product-discovery-buy:active {
   transform: translateY(0);
   box-shadow: var(--shadow-level-1);
+}
+ 
+.positioning-phrase {
+  top: 50%;
+  left: 50%;
+  color: #8B5E2A;
+  opacity: 0;
+  position: absolute;
+  animation: phraseReveal 12s ease-in-out infinite;
+  font-size: clamp(3.5rem, 4.5rem + 2vw, 6.5rem);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-weight: 700;
+  line-height: var(--line-height-heading);
+  text-shadow: 0px 2px 4px rgba(212, 195, 172, 0.2);
+  white-space: nowrap;
+  letter-spacing: var(--letter-spacing-heading);
+}
+ 
+.positioning-phrase[data-role="phrase-1"] {
+  animation-delay: 0s;
+}
+ 
+.positioning-phrase[data-role="phrase-2"] {
+  animation-delay: 4s;
+}
+ 
+.positioning-phrase[data-role="phrase-3"] {
+  animation-delay: 8s;
 }
  
 .Content {
@@ -3302,8 +3317,8 @@
   .product-discovery1-product-discovery-card {
     flex: 0 0 280px;
   }
-  .positioning-section  .section-title {
-    font-size: var(--font-size-3xl);
+  .positioning-phrase {
+    font-size: clamp(2.8rem, 3.5rem + 1.5vw, 4.5rem);
   }
 }
  
@@ -3404,7 +3419,8 @@
   }
   .positioning-container {
     gap: var(--spacing-xl);
-    padding: 0 var(--spacing-md);
+    padding: var(--spacing-3xl) var(--spacing-md);
+    min-height: 40vh;
   }
   .discovery-grid {
     grid-template-columns: 1fr;
@@ -3483,8 +3499,8 @@
   .product-discovery1-product-discovery-card {
     flex: 0 0 260px;
   }
-  .positioning-section  .section-title {
-    font-size: var(--font-size-2xl);
+  .positioning-phrase {
+    font-size: clamp(2.2rem, 2.8rem + 1vw, 3.5rem);
   }
 }
  
