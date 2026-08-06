@@ -82,10 +82,35 @@ const Home = (props) => {
                   className="iphone-frame"
                 />
                 <div className="home-thq-floating-ui-card-elm1 card-profile floating-ui-card">
+                  <div className="home-thq-live-badge-elm">
+                    <span className="home-thq-live-dot-elm"></span>
+                    <span className="home-thq-live-text-elm">LIVE</span>
+                  </div>
                   <div className="ui-avatar"></div>
                   <div className="ui-lines">
                     <div className="ui-line-sm"></div>
                     <div className="ui-line-xs"></div>
+                  </div>
+                  <div className="home-thq-live-label-elm">
+                    <span>Product Launch</span>
+                  </div>
+                  <div>
+                    <div className="home-container3">
+                      <Script
+                        html={`<style>
+@keyframes blinkLive {
+0%, 100% {
+  opacity: 1;
+  transform: scale(1);
+}
+50% {
+  opacity: 0.4;
+  transform: scale(0.85);
+}
+}
+</style>`}
+                      ></Script>
+                    </div>
                   </div>
                 </div>
                 <div className="home-thq-floating-ui-card-elm2 card-trust floating-ui-card">
@@ -663,8 +688,8 @@ const Home = (props) => {
             </div>
           </div>
         </section>
-        <div className="home-container2">
-          <div className="home-container3">
+        <div className="home-container4">
+          <div className="home-container5">
             <Script
               html={`<script defer data-name="thoones-homepage">
 (function(){
@@ -736,8 +761,8 @@ const Home = (props) => {
             ></Script>
           </div>
         </div>
-        <div className="home-container4">
-          <div className="home-container5">
+        <div className="home-container6">
+          <div className="home-container7">
             <Script
               html={`<style>
         @keyframes slideUp {
@@ -784,43 +809,54 @@ const Home = (props) => {
             transform: translateY(-10px);
           }
         }
+        @keyframes blinkLive {
+          0%,
+          100% {
+            opacity: 1;
+            transform: scale(1);
+          }
+          50% {
+            opacity: 0.4;
+            transform: scale(0.85);
+          }
+        }
       </style>`}
             ></Script>
           </div>
         </div>
         <Footer></Footer>
         <div>
-          <div className="home-container7">
+          <div className="home-container9">
             <Script
               html={`<style>
-@keyframes phraseReveal {
-0% {
-  opacity: 0;
-  transform: translate(-50%, -40%);
-  filter: blur(4px);
-}
-6% {
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  filter: blur(0px);
-}
-27% {
-  opacity: 1;
-  transform: translate(-50%, -50%);
-  filter: blur(0px);
-}
-33% {
-  opacity: 0;
-  transform: translate(-50%, -60%);
-  filter: blur(4px);
-}
-100% {
-  opacity: 0;
-  transform: translate(-50%, -40%);
-  filter: blur(4px);
-}
-}
-</style>`}
+        @keyframes phraseReveal {
+          0% {
+            opacity: 0;
+            transform: translate(0, -20%);
+            filter: blur(4px);
+          }
+          7% {
+            opacity: 1;
+            transform: translate(0, 0);
+            filter: blur(0px);
+          }
+          27% {
+            opacity: 1;
+            transform: translate(0, 0);
+            filter: blur(0px);
+          }
+          33% {
+            opacity: 0;
+            transform: translate(0, -10%);
+            filter: blur(4px);
+          }
+          100% {
+            opacity: 0;
+            transform: translate(0, -20%);
+            filter: blur(4px);
+          }
+        }
+      </style>`}
             ></Script>
           </div>
         </div>
@@ -840,6 +876,34 @@ const Home = (props) => {
           .home-thq-floating-ui-card-elm1 {
             -delay: 0.2s;
           }
+          .home-thq-live-badge-elm {
+            gap: 6px;
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+          }
+          .home-thq-live-dot-elm {
+            width: 8px;
+            height: 8px;
+            animation: blinkLive 1.2s ease-in-out infinite;
+            background: #ff3b30;
+            border-radius: 50%;
+          }
+          .home-thq-live-text-elm {
+            color: #ff3b30;
+            font-size: 11px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+          }
+          .home-thq-live-label-elm {
+            color: var(--color-on-surface-secondary);
+            font-size: 11px;
+            margin-top: 8px;
+            font-weight: 500;
+          }
+          .home-container3 {
+            display: contents;
+          }
           .home-thq-floating-ui-card-elm2 {
             -delay: 0.4s;
           }
@@ -851,8 +915,8 @@ const Home = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            min-height: 1.35em;
-            align-items: center;
+            min-height: 3.5em;
+            align-items: flex-start;
             justify-content: center;
           }
           .home-thq-bar-fill-elm1 {
@@ -864,19 +928,19 @@ const Home = (props) => {
           .home-thq-bar-fill-elm3 {
             width: 78%;
           }
-          .home-container2 {
-            display: none;
-          }
-          .home-container3 {
-            display: contents;
-          }
           .home-container4 {
             display: none;
           }
           .home-container5 {
             display: contents;
           }
+          .home-container6 {
+            display: none;
+          }
           .home-container7 {
+            display: contents;
+          }
+          .home-container9 {
             display: contents;
           }
         `}
