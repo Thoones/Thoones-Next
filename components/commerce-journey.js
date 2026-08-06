@@ -43,7 +43,7 @@ const CommerceJourney = (props) => {
                       <div className="commerce-journey-product-image">
                         <img
                           src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fEhhbmQlMjBiYWd8ZW58MHx8fHwxNzg2MDUyMjQ3fDA&amp;ixlib=rb-4.1.0&amp;h=700"
-                          alt="Premium Tech Product"
+                          alt="Classic Leather Bag"
                           loading="lazy"
                         />
                       </div>
@@ -70,7 +70,7 @@ const CommerceJourney = (props) => {
                           </div>
                         </div>
                         <h3 className="commerce-journey-product-name">
-                          Classic Leather Jacket
+                          Classic Leather Bag
                         </h3>
                         <p className="commerce-journey-seller">
                           <span>
@@ -132,13 +132,13 @@ const CommerceJourney = (props) => {
                         <div className="commerce-journey-summary-card">
                           <div className="commerce-journey-item-thumb">
                             <img
-                              src="https://images.pexels.com/photos/9635251/pexels-photo-9635251.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                              alt="Product Thumbnail"
+                              src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fEhhbmQlMjBiYWd8ZW58MHx8fHwxNzg2MDUyMjQ3fDA&amp;ixlib=rb-4.1.0&amp;w=200"
+                              alt="Classic Leather Bag Thumbnail"
                             />
                           </div>
                           <div className="commerce-journey-item-details">
                             <p className="commerce-journey-item-name">
-                              Classic Leather Jacket
+                              Classic Leather Bag
                             </p>
                             <p className="commerce-journey-item-qty">
                               Quantity: 1
