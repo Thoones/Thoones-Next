@@ -1740,14 +1740,11 @@
 }
  
 .device-icon {
+  color: var(--color-on-surface);
+  display: flex;
+  align-items: center;
   margin-bottom: var(--spacing-lg);
-}
- 
-.mini-mock {
-  width: 80px;
-  height: 80px;
-  object-fit: cover;
-  border-radius: var(--border-radius-md);
+  justify-content: center;
 }
  
 .home-hero-title  span {
@@ -3230,6 +3227,11 @@
  
 .positioning-phrase-typing:nth-child(3) {
   animation-delay: 6s;
+}
+ 
+.device-icon  svg {
+  width: 48px;
+  height: 48px;
 }
  
 .Content {

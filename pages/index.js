@@ -638,11 +638,20 @@ const Home = (props) => {
             <div className="download-grid">
               <div className="download-card">
                 <div className="device-icon">
-                  <img
-                    alt="iPhone"
-                    src="https://images.pexels.com/photos/12876445/pexels-photo-12876445.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                    className="mini-mock"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M12 6.528V3a1 1 0 0 1 1-1h0"></path>
+                    <path d="M18.237 21A15 15 0 0 0 22 11a6 6 0 0 0-10-4.472A6 6 0 0 0 2 11a15.1 15.1 0 0 0 3.763 10a3 3 0 0 0 3.648.648a5.5 5.5 0 0 1 5.178 0A3 3 0 0 0 18.237 21"></path>
+                  </svg>
                 </div>
                 <h3>iPhone</h3>
                 <p>Optimized for iOS with native gestures and haptics.</p>
@@ -654,11 +663,19 @@ const Home = (props) => {
               </div>
               <div className="download-card">
                 <div className="device-icon">
-                  <img
-                    alt="Android"
-                    src="https://images.pexels.com/photos/6373187/pexels-photo-6373187.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                    className="mini-mock"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="M4 10v6m16-6v6M7 9h10v8a1 1 0 0 1-1 1H8a1 1 0 0 1-1-1za5 5 0 0 1 10 0M8 3l1 2m7-2l-1 2M9 18v3m6-3v3"></path>
+                  </svg>
                 </div>
                 <h3>Android</h3>
                 <p>Seamless performance across all Android devices.</p>
@@ -670,11 +687,19 @@ const Home = (props) => {
               </div>
               <div className="download-card">
                 <div className="device-icon">
-                  <img
-                    alt="Desktop"
-                    src="https://images.pexels.com/photos/5054358/pexels-photo-5054358.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=200"
-                    className="mini-mock"
-                  />
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="48"
+                    height="48"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="1.5"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  >
+                    <path d="m17.8 20l-12-1.5c-1-.1-1.8-.9-1.8-1.9V7.4c0-1 .8-1.8 1.8-1.9l12-1.5c1.2-.1 2.2.8 2.2 1.9V18c0 1.2-1.1 2.1-2.2 1.9zM12 5v14m-8-7h16"></path>
+                  </svg>
                 </div>
                 <h3>Desktop</h3>
                 <p>Full-screen discovery and business management.</p>
