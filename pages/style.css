@@ -3196,34 +3196,15 @@
 }
  
 .positioning-phrase {
-  top: 0;
-  left: 0;
   color: #FFF8F0;
-  width: 100%;
-  opacity: 0;
   padding: 0 var(--spacing-md);
-  position: absolute;
-  animation: phraseReveal 15s ease-in-out infinite;
   font-size: clamp(4rem, 5.5rem + 3vw, 8.5rem);
-  transform: translate(0, 0);
   text-align: center;
   font-weight: 700;
   line-height: 1.25;
   text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
   white-space: normal;
   letter-spacing: var(--letter-spacing-heading);
-}
- 
-.positioning-phrase[data-role="phrase-1"] {
-  animation-delay: 0s;
-}
- 
-.positioning-phrase[data-role="phrase-2"] {
-  animation-delay: 5s;
-}
- 
-.positioning-phrase[data-role="phrase-3"] {
-  animation-delay: 10s;
 }
  
 .Content {
