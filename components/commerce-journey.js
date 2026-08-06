@@ -70,7 +70,7 @@ const CommerceJourney = (props) => {
                           </div>
                         </div>
                         <h3 className="commerce-journey-product-name">
-                          Thoones Air Edition
+                          Classic Leather Jacket
                         </h3>
                         <p className="commerce-journey-seller">
                           <span>
@@ -138,7 +138,7 @@ const CommerceJourney = (props) => {
                           </div>
                           <div className="commerce-journey-item-details">
                             <p className="commerce-journey-item-name">
-                              Thoones Air Edition
+                              Classic Leather Jacket
                             </p>
                             <p className="commerce-journey-item-qty">
                               Quantity: 1

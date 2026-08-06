@@ -109,10 +109,10 @@ const Home = (props) => {
         <section className="positioning-section">
           <div className="positioning-container">
             <div data-reveal="true" className="statement-item">
-              <h2 className="section-title">More than a marketplace.</h2>
+              <h2 className="section-title">More than a social network.</h2>
             </div>
             <div data-reveal="true" className="statement-item">
-              <h2 className="section-title">More than a social network.</h2>
+              <h2 className="section-title">More than a marketplace.</h2>
             </div>
             <div data-reveal="true" className="statement-item">
               <h2 className="section-title">Something in between.</h2>
