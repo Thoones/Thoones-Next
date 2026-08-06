@@ -137,14 +137,41 @@ const Home = (props) => {
               data-role="positioning-headline"
               className="home-thq-positioning-headline-elm"
             >
-              <span data-role="phrase-1" className="positioning-phrase">
-                More than a social network.
+              <span data-role="phrase-1">
+                <span>More than a</span>
+                <br></br>
+                <span>
+                  social network.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </span>
-              <span data-role="phrase-2" className="positioning-phrase">
-                More than a marketplace.
+              <span data-role="phrase-2">
+                <span>More than a</span>
+                <br></br>
+                <span>
+                  marketplace.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </span>
-              <span data-role="phrase-3" className="positioning-phrase">
-                Something in between.
+              <span data-role="phrase-3">
+                <span>Something in</span>
+                <br></br>
+                <span>
+                  between.
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: ' ',
+                    }}
+                  />
+                </span>
               </span>
             </div>
           </div>
@@ -915,7 +942,7 @@ const Home = (props) => {
             display: flex;
             overflow: hidden;
             position: relative;
-            min-height: 3.5em;
+            min-height: 7.5em;
             align-items: flex-start;
             justify-content: center;
           }
