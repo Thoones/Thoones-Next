@@ -88,7 +88,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $299.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -174,7 +174,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $165.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -260,7 +260,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $349.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -346,7 +346,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $899.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -432,7 +432,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $450.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -518,7 +518,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $220.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -604,7 +604,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $1,200.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"
@@ -690,7 +690,7 @@ const ProductDiscovery1 = (props) => {
                       <span className="product-discovery1-product-discovery-price">
                         $749.00
                       </span>
-                      <button className="product-discovery1-product-discovery-buy btn btn-primary btn-sm">
+                      <button className="product-discovery1-product-discovery-buy btn btn-primary">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           width="24"

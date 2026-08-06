@@ -246,6 +246,97 @@ const Navigation = (props) => {
                 </a>
               </div>
             </div>
+            <div className="navigation-mobile-content">
+              <div className="navigation-mobile-nav-list">
+                <a href="Trust" className="navigation-link22">
+                  <div className="navigation-mobile-link">
+                    <span>Trust</span>
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m9 18l6-6l-6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="Business" className="navigation-link23">
+                  <div className="navigation-mobile-link">
+                    <span>Business</span>
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m9 18l6-6l-6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+                <a href="About" className="navigation-link24">
+                  <div className="navigation-mobile-link">
+                    <span>About</span>
+                    <svg
+                      width="20"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="20"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        d="m9 18l6-6l-6-6"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      ></path>
+                    </svg>
+                  </div>
+                </a>
+              </div>
+              <div className="navigation-mobile-footer">
+                <p className="navigation-mobile-tagline">
+                  People. Things. Together.
+                </p>
+                <a href="Download" className="navigation-link25">
+                  <div className="btn-primary btn navigation-cta-mobile">
+                    <svg
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      viewBox="0 0 24 24"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      >
+                        <path d="M12 15V3m9 12v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                        <path d="m7 10l5 5l5-5"></path>
+                      </g>
+                    </svg>
+                    <span>Download Thoones</span>
+                  </div>
+                </a>
+              </div>
+            </div>
           </div>
         </nav>
         <div className="navigation-container2">
@@ -362,6 +453,18 @@ const Navigation = (props) => {
             display: contents;
           }
           .navigation-link21 {
+            display: contents;
+          }
+          .navigation-link22 {
+            display: contents;
+          }
+          .navigation-link23 {
+            display: contents;
+          }
+          .navigation-link24 {
+            display: contents;
+          }
+          .navigation-link25 {
             display: contents;
           }
           .navigation-container2 {

@@ -1282,7 +1282,7 @@
  
 .positioning-section {
   padding: var(--spacing-4xl) 0;
-  background: #111114;
+  background: #F7F4EB;
   text-align: center;
 }
  
@@ -1536,7 +1536,7 @@
 }
  
 .transformation-section {
-  padding: var(--spacing-4xl) 0;
+  padding: 8px;
   background: var(--color-surface);
 }
  
@@ -3081,11 +3081,12 @@
 }
  
 .product-discovery1-product-discovery-footer {
+  gap: var(--spacing-md);
   display: flex;
   margin-top: auto;
-  align-items: center;
+  align-items: stretch;
   padding-top: var(--spacing-md);
-  justify-content: space-between;
+  flex-direction: column;
 }
  
 .product-discovery1-product-discovery-avatar {
@@ -3126,6 +3127,20 @@
  
 .product-discovery1-product-discovery-buy {
   gap: var(--spacing-xs);
+  color: var(--color-on-primary);
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: var(--font-size-base);
+  box-shadow: var(--shadow-level-1);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  font-weight: var(--font-weight-medium);
+  border-radius: var(--border-radius-md);
+  justify-content: center;
+  background-color: var(--color-primary);
 }
  
 .product-discovery-viewport::-webkit-scrollbar {
@@ -3168,9 +3183,10 @@
 }
  
 .positioning-section  .section-title {
-  color: #FAFAF8;
-  font-size: var(--font-size-3xl);
+  color: #2C2420;
+  font-size: var(--font-size-4xl);
   line-height: var(--line-height-heading);
+  text-shadow: 0px 2px 4px rgba(212, 195, 172, 0.2);
   letter-spacing: var(--letter-spacing-heading);
 }
  
@@ -3180,6 +3196,17 @@
  
 .statement-item:nth-child(3) {
   opacity: 1;
+}
+ 
+.product-discovery1-product-discovery-buy:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-level-2);
+  background-color: var(--color-primary-hover);
+}
+ 
+.product-discovery1-product-discovery-buy:active {
+  transform: translateY(0);
+  box-shadow: var(--shadow-level-1);
 }
  
 .Content {
@@ -3276,7 +3303,7 @@
     flex: 0 0 280px;
   }
   .positioning-section  .section-title {
-    font-size: var(--font-size-2xl);
+    font-size: var(--font-size-3xl);
   }
 }
  
@@ -3457,7 +3484,7 @@
     flex: 0 0 260px;
   }
   .positioning-section  .section-title {
-    font-size: var(--font-size-xl);
+    font-size: var(--font-size-2xl);
   }
 }
  

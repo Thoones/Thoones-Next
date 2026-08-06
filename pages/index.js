@@ -109,14 +109,24 @@ const Home = (props) => {
         <section className="positioning-section">
           <div className="positioning-container">
             <div data-reveal="true" className="statement-item">
-              <h2 className="section-title">More than a social network.</h2>
+              <h2 className="section-title hero-title">
+                More than a social network.
+              </h2>
             </div>
             <div data-reveal="true" className="statement-item">
-              <h2 className="section-title">More than a marketplace.</h2>
+              <h2 className="section-title hero-title">
+                More than a marketplace.
+              </h2>
             </div>
             <div data-reveal="true" className="statement-item">
-              <h2 className="section-title">Something in between.</h2>
+              <h2 className="section-title hero-title">
+                Something in between.
+              </h2>
             </div>
+            <p className="home-thq-positioning-description-elm">
+              Thoones is where people, discovery, trust and commerce come
+              together.
+            </p>
           </div>
         </section>
         <section className="loop-section">
@@ -805,6 +815,13 @@ const Home = (props) => {
           }
           .home-thq-floating-ui-card-elm3 {
             -delay: 0.6s;
+          }
+          .home-thq-positioning-description-elm {
+            color: #4a4640;
+            font-size: var(--font-size-lg);
+            max-width: 48ch;
+            margin-top: var(--spacing-lg);
+            line-height: var(--line-height-body);
           }
           .home-thq-bar-fill-elm1 {
             width: 92%;
