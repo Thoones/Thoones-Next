@@ -849,8 +849,9 @@ const Home = (props) => {
           .home-thq-positioning-headline-elm {
             width: 100%;
             display: flex;
+            overflow: hidden;
             position: relative;
-            min-height: 1.2em;
+            min-height: 1.35em;
             align-items: center;
             justify-content: center;
           }
